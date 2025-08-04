@@ -2,7 +2,9 @@
 Builded binary file from https://github.com/NVIDIA/dcgm-exporter
 
 # Make Sure Cuda 12.x already installed
+```
 nvidia-smi
+```
 
 # Install Nvidia DCGM
 ```
