@@ -1,0 +1,12 @@
+[Unit]
+Description=DCGM Exporter
+After=network.target nvidia-dcgm.service
+Requires=nvidia-dcgm.service
+
+[Service]
+ExecStart=/usr/bin/dcgm-exporter      
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
